@@ -52,3 +52,15 @@ body{
     font-weight: 400;
     text-align: center;
 }
+
+@media screen and (max-width: 410px){
+    .container{
+        width: 320px;
+        padding: 20px;
+    }
+
+    .text-paragraph{
+        margin-bottom: 19px;
+        line-height: 1.3rem;
+    }
+}

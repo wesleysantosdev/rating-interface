@@ -85,17 +85,14 @@ body{
     color: white;
 }
 
-/*
-
-selected
-
-background-color: hsl(217, 12%, 63%);
-color: white; 
-
-*/
+.bs-list-number.active{
+    background-color: hsl(217, 12%, 63%);
+    color: white; 
+}
 
 .bs-button{
-    cursor: pointer;
+    padding: 10px;
+    text-align: center;
     height: 40px;
     border-radius: 18px;
     background-color: #FC7614;
@@ -104,6 +101,7 @@ color: white;
     color: white;
     letter-spacing: 1px;
     transition: ease-in .3s;
+    text-decoration: none;
 }
 
 .bs-button:hover{
@@ -111,6 +109,27 @@ color: white;
     color: #FC7614;
 }
 
+@media screen and (max-width: 375px){
+    .container{
+        width: 320px;
+        padding: 20px;
+    }
+
+    .svg-container{
+        margin-bottom: 20px;
+    }
+
+    .ts-paragraph{
+        margin-bottom: 25px;
+        line-height: 1.3rem;
+    }
+
+    .bs-button{
+        font-size: 13px;
+        padding-top: 12px;
+        margin-bottom: 20px;
+    }
+}
 
 
 
