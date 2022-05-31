@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.svg-container{
+    margin-bottom: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(214, 15%, 22%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts-title{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 23px;
+}
+
+.ts-paragraph{
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bs-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.bs-list li{
+    width: 45px;
+    height: 45px;
+    background-color: hsl(214, 15%, 22%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: ease-in .3s;
+}
+
+.bs-list li:hover{
+    background-color: #FC7614;
+    color: white;
+}
+
+/*
+
+selected
+
+background-color: hsl(217, 12%, 63%);
+color: white; 
+
+*/
+
+.bs-button{
+    cursor: pointer;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #FC7614;
+    outline: none;
+    border: 0;
+    color: white;
+    letter-spacing: 1px;
+    transition: ease-in .3s;
+}
+
+.bs-button:hover{
+    background-color: white;
+    color: #FC7614;
+}
+
+
+
+
+
+
